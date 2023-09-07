@@ -29,7 +29,48 @@ For the user, the set-up is simpler:
     JRE
     Host Environment
 
-  ## Running from the Command Line
+## Running from the Command Line
+
+Java applications are not native, they have to be run in the JRE
+
+NB: class file names are case-sensitive
+
+        javac Main.java
+        java Main.java
+
+ ## Statement Structure and Whitespace
+
+ - Programs are made up of statements:
+
+        System.out.println( "Pluralsight" );
+
+ - Always end with a semicolon ;
+
+ - Can contain zero or more whitespaces therefore you can mix it up - content controls behaviour, not whitespace
+
+## Comments
+
+Text ignored by the compiler.
+
+- Makes it more readable
+
+- Can 'hide' code
+
+Types of comment:
+
+//...
+Line comment (ignore text until it reaches the end of the line)
+
+/*...*/
+Block comment (text ignored within the block)
+
+/**...*/
+Javadoc comment (treated like a block comment BUT can be used to generate documentation)
+
+
+
+
+
 
 
 
