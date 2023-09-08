@@ -1,6 +1,6 @@
 Java SE 17 Fundamentals
 
-## Create and run app with IntelliJ IDEA
+# Create and run app with IntelliJ IDEA
 
 - Build a simple Java application
 - Using IntelliJ
@@ -26,7 +26,9 @@ We want to run it in a host environment (e.g. Windows, Mac or Linux) - but they 
 For the user, the set-up is simpler:
 
     Java App
-    JRE
+      |
+     JRE
+      |
     Host Environment
 
 ## Running from the Command Line
@@ -58,37 +60,70 @@ Text ignored by the compiler.
 
 Types of comment:
 
-//...
-Line comment (ignore text until it reaches the end of the line)
+    //...
+    Line comment (ignore text until it reaches the end of the line)
 
-/*...*/
-Block comment (text ignored within the block)
+    /*...*/
+    Block comment (text ignored within the block)
 
-/**...*/
-Javadoc comment (treated like a block comment BUT can be used to generate documentation)
+    /**...*/
+    Javadoc comment (treated like a block comment BUT can be used to generate documentation)
+
+## Introduction to Packages
+
+Source files are usually qualified with a package name
+
+Packages: 
+
+- Help us with organisation
+- Follow standard naming convention 
+- Affect source code structure 
+
+Packaging Naming Conventions
+
+- All lowercase
+  - Use reverse domain name notation to assure global uniqueness
+
+         package com.pluralsight
+
+    - They affect our source code organisation
+   
+           src
+           |
+           com
+           |
+            pluralsight
+               |
+               example
+                  |
+                  Main.java
+
+E.g. 
+
+      java com.pluralsight.orgaqnized.Main
+
+------------
+
+# Variables, Data Types and Math Operators
+
+## Variables
+
+A way to store valuables
+
+- Its a named data storage
+- Strongly typed e.g. of an 'int' value
+
+    
 
 
 
-
-
-
-
-
-
-# Run an app from the command line
-# Basics of Statement Syntax
-# Line and Block Comments
-# Packages and Code Organisation
-
-
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+# Conditional Logic and Block Statements
+# Looping and Arrays
+# Understanding Methods
+# Working with Strings
+# Understanding Classes and Objects
+# Implementing Class Constructors and Initializers
+# Using Static Members
+# A Closer Look at Methods
+# Working with Wrapper Classes, Enums and Records
+# Introducing Annotations
