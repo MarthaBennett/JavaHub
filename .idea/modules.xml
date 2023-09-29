@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/gitHubRepo.iml" filepath="$PROJECT_DIR$/.idea/gitHubRepo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/letsGetLogical.iml" filepath="$PROJECT_DIR$/letsGetLogical.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/letsGetLogical.main.iml" filepath="$PROJECT_DIR$/.idea/modules/letsGetLogical.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/letsGetLogical.test.iml" filepath="$PROJECT_DIR$/.idea/modules/letsGetLogical.test.iml" />
     </modules>
   </component>
 </project>
